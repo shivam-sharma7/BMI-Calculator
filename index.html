@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>Calculator</title>
+</head>
+
+ <!-- Internal csss start -->
+  <style>
+
+    body{
+
+        background-color: bisque;     
+    }
+
+    .container{
+
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 15%;
+        text-align: center;
+    }
+
+  </style>
+ <!-- Internal csss end -->
+<body>
+
+     <div class="container"> 
+    <h1>Calculator App</h1>
+     <form action="/" method="post">
+        <input type="text" name="num1" id="" placeholder="First Number">
+        <input type="text" name="num2" id="" placeholder="Second Number">
+        <button type="submit" name="submit">Calculate</button>
+
+     </form>
+     
+     <form action="/subtract" method="post">
+        <input type="text" name="num3" id="" placeholder="First Number">
+        <input type="text" name="num4" id="" placeholder="Second Number">
+        <button type="submit" name="submit">Subtract</button>
+
+     </form>
+     <form action="/multiply" method="post">
+        <input type="text" name="num5" id="" placeholder="First Number">
+        <input type="text" name="num6" id="" placeholder="Second Number">
+        <button type="submit" name="submit">Multiply</button>
+
+     </form>
+
+     <form action="/divide" method="post">
+        <input type="text" name="num7" id="" placeholder="First Number">
+        <input type="text" name="num8" id="" placeholder="Second Number">
+        <button type="submit" name="submit">Divide</button>
+     </form>
+
+     </div>
+</body>
+</html>
+ 
